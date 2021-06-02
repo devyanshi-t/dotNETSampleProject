@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/devyanshitiwari/Desktop/gradebook/src/Gradebook/Gradebook.csproj": {}
+    "/Users/devyanshitiwari/Desktop/gradebook/C# Tutorial/src/Gradebook/Gradebook.csproj": {}
   },
   "projects": {
-    "/Users/devyanshitiwari/Desktop/gradebook/src/Gradebook/Gradebook.csproj": {
+    "/Users/devyanshitiwari/Desktop/gradebook/C# Tutorial/src/Gradebook/Gradebook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/devyanshitiwari/Desktop/gradebook/src/Gradebook/Gradebook.csproj",
+        "projectUniqueName": "/Users/devyanshitiwari/Desktop/gradebook/C# Tutorial/src/Gradebook/Gradebook.csproj",
         "projectName": "Gradebook",
-        "projectPath": "/Users/devyanshitiwari/Desktop/gradebook/src/Gradebook/Gradebook.csproj",
+        "projectPath": "/Users/devyanshitiwari/Desktop/gradebook/C# Tutorial/src/Gradebook/Gradebook.csproj",
         "packagesPath": "/Users/devyanshitiwari/.nuget/packages/",
-        "outputPath": "/Users/devyanshitiwari/Desktop/gradebook/src/Gradebook/obj/",
+        "outputPath": "/Users/devyanshitiwari/Desktop/gradebook/C# Tutorial/src/Gradebook/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
