@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 namespace Gradebook
 {
+    
     class Program
     {
         static void Main(string[] args)
@@ -20,23 +21,16 @@ namespace Gradebook
        
           System.Console.WriteLine(result);
 
-         List<double> grades=new List<double>(){34.5,67.8,90.6};
-          grades.Add(78.9);
-          foreach (var item in grades)
-          {
-              result+=item;
-          }
+           Book book= new Book("Book1");
            
-        
-            var avg=result/grades.Count;
-            System.Console.WriteLine($"avg ={avg:N1}");
-           if(args.Length >0)
-           { Console.WriteLine($"Hello {args[0] }!");// String interpolation
-           }
-           else
-           {
-               Console.WriteLine("Hello World");
-           }
+           book.AddGrade(56.1);
+           book.AddGrade(46.1);
+           book.AddGrade(516.1);
+           book.AddGrade(56.45);
+           book.AddGrade(6.1);
+           book.showStats();
+
+          
         }
     }
 }
